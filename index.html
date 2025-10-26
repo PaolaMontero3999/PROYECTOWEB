@@ -62,7 +62,89 @@ que luego se convierte en una pieza tangible mediante la impresora 3D.</p>
         
         </nav>
     </header>
-      
+      <h3> TRABAJOS REALIZADOS POR NOSOTROS: </h3>
+      <header>
+        <ul>
+          <li> 
+            Llaveros <br><br/>
+            <img src="./iconos/woody.jpg" width="80" alt="llavero silueta de perro">
+          </li>
+          <li> 
+            Siluetas <br><br/>
+            <img src="./iconos/rafael.jpg" width="80" alt="silueta de abuelo">
+          </li>
+           <li> 
+            Decoraciones navidad <br><br/>
+            <img src="./iconos/renos.jpg" width="90" height="70" alt="Familia de renos">
+          </li>
+        </ul>
+      </header>
 
+<form>
+  <fieldset>
+    <!-- datos de contacto para hacer pedidos -->
+    <legend> Aqui puedes hacer tu pedido</legend>
+
+    
+    <label for="nombre">Nombre completo:</label><br>
+    <input type="text" id="nombre" 
+     placeholder="Tu nombre"> <br><br/>
+     <label for="nombre">Dirección del pedido:</label><br>
+    <input type="text" id="Dirección" 
+     placeholder="ej: Calle piruleta"> <br><br/>
+
+     <label for="codigopostal">Código postal:</label><br>
+     <input type= "number" id=" codigopostal" placeholder="11100"></label><br>
+     <br/>
+
+
+    
+    <label for="email">Correo electrónico:</label>
+    <input type="email" id="email" name="email"
+     placeholder="tuemail@ejemplo.com"><br><br>
+
+    
+    <label for="telefono">Teléfono de contacto:</label><br>
+    <input type="tel" id="telefono" name="telefono" placeholder="+34 600 000 000"><br><br>
+
+    
+    <label for="fecha">Fecha de entrega deseada:</label><br>
+    <input type="date" id="fecha" name="fecha"><br><br>
+
+    
+    <p>Tipo de material:</p>
+    <input type="radio" id="pla" name="material" value="PLA">
+    <label for="pla">PLA</label><br>
+    <input type="radio" id="abs" name="material" value="ABS">
+    <label for="abs">ABS</label><br>
+    <input type="radio" id="resina" name="material" value="Resina">
+    <label for="resina">Resina</label><br><br>
+
+  
+    <p>Servicios adicionales:</p>
+    <input type="checkbox" id="pintado" name="servicios" value="Pintado">
+    <label for="pintado">Pintado</label><br>
+    <input type="checkbox" id="montaje" name="servicios" value="Lijado">
+    <label for="lijado">Montaje</label><br>
+    <input type="checkbox" id="grabado" name="servicios" value="Montaje">
+    <label for="montaje">Grababo</label><br><br>
+
+    
+    <label for="tamano">Tamaño aproximado de la pieza:</label><br>
+    <select id="tamano" name="tamano">
+      <option value="pequeno">Pequeño (hasta 10 cm)</option>
+      <option value="mediano">Mediano (10–20 cm)</option>
+      <option value="grande">Grande (más de 20 cm)</option>
+    </select><br><br>
+
+   
+    <label for="mensaje">Detalles del pedido o comentarios:</label><br>
+    <textarea id="mensaje" name="mensaje" rows="5" cols="40" placeholder="Describe tu diseño o adjunta enlace al archivo que desee que se realice"></textarea><br><br>
+
+    
+    <input type="submit" value="Enviar pedido">
+
+  </fieldset>
+</form>
 </body>
 </html>
